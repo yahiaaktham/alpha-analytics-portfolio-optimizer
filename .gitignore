@@ -1,0 +1,27 @@
+# Private inputs — never commit (see report Section 17.3)
+Sources/
+price_panel*.csv
+*ledger*.csv
+*brokerage*.csv
+Individual-Positions*.csv
+
+# Empirical outputs — derived from private holdings, not for publication
+results/
+results_*/
+figures/
+*.png
+
+# Environments, caches, credentials
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.env
+credentials*.json
+token*.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/

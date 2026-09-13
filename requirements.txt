@@ -1,0 +1,16 @@
+# Pinned for reproducibility. NOTE: pinning these versions is necessary but NOT sufficient
+# to reproduce every reported figure exactly. The unregularised mean-variance baseline in
+# the walk-forward backtest solves an ill-conditioned problem (condition number ~10^6
+# before shrinkage). That solve is stable to the starting point, but its result depends on
+# the platform's BLAS/LAPACK kernel selection: Windows and Linux running the SAME
+# OpenBLAS 0.3.30 build return different values for that one row. Every regularised
+# strategy and every Monte Carlo risk metric reproduces exactly on both platforms.
+# The environment used to generate the reported (private, not committed) results is
+# recorded in environment.md. See report Section 18.4.
+
+numpy==2.4.1
+pandas==3.0.0
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.11.1
+streamlit==1.62.0
