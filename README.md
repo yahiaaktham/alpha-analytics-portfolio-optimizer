@@ -1,4 +1,4 @@
-# Alpha Analytics — Personal Portfolio Optimizer
+# Alpha Analytics - Personal Portfolio Optimizer
 
 Quantic MSBA Capstone project. Author: **Yahia Aktham**.
 
@@ -14,7 +14,7 @@ anything.
 Worth stating up front, because it is not the usual claim:
 
 - **Unregularised textbook mean-variance optimisation fails.** Out of sample it produced
-  43.7% annualised volatility, a 35.6% maximum drawdown and 31.8% monthly turnover — the
+  43.7% annualised volatility, a 35.6% maximum drawdown and 31.8% monthly turnover - the
   worst risk-adjusted result of every strategy tested.
 - **The standard remedies work, as separate alternatives, not a monotonic ladder.** Capped
   minimum variance reaches 13.4% volatility and a 13.0% drawdown; the beta-shrunk CAPM
@@ -37,8 +37,8 @@ Worth stating up front, because it is not the usual claim:
 
 So the value proposition is **risk control plus an illustrative cost-avoidance comparison,
 not return enhancement or a proven cash saving**. Absolute return levels in the backtest are
-inflated by survivorship bias — the asset universe is the author's *current* holdings,
-selected after four years of trading — so only the relative comparisons between strategies
+inflated by survivorship bias - the asset universe is the author's *current* holdings,
+selected after four years of trading - so only the relative comparisons between strategies
 are interpretable, and even those comparisons are not protected from that selection.
 
 ## Modules
