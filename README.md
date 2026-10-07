@@ -5,7 +5,7 @@ Quantic MSBA Capstone project. Author: **Yahia Aktham**.
 A prescriptive decision support system for personal portfolio allocation. It reconstructs a
 real brokerage transaction ledger into a daily holdings series, estimates asset risk and
 CAPM equilibrium expected returns with full regression diagnostics, solves a constrained
-mean-variance problem with shrinkage regularisation, and — critically — validates the result
+mean-variance problem with shrinkage regularisation, and - critically - validates the result
 **out of sample**, with true monthly holding-drift between rebalances, before recommending
 anything.
 
